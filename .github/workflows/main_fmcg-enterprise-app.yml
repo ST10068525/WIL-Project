@@ -55,8 +55,3 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3236B6EA1C834DDF8AECE435A0CD70AC }}
-        with:
-          app-name: 'fmcg-enterprise-app'
-          slot-name: 'Production'
-          package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3236B6EA1C834DDF8AECE435A0CD70AC }}
